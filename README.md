@@ -12,3 +12,14 @@ It's up to you to time your jumps and get as far as you can and increase your sc
 
 
 I know there isn't a highscore thing that shows you your score. I will get back to this project later and add many other things. 
+
+{SCREENSHOTS}
+
+![Screenshot 2023-08-03 130257](https://github.com/dev-aj0/The-Run-Game/assets/130843616/16de11de-9e2e-4451-b620-9c14e9a30336)
+_______________________________________________________________________________________________________________________________
+![image](https://github.com/dev-aj0/The-Run-Game/assets/130843616/0ac21d6d-08f6-4ca9-a54f-9246413fde47)
+_______________________________________________________________________________________________________________________________
+![image](https://github.com/dev-aj0/The-Run-Game/assets/130843616/65fa80e9-c33f-49ce-b6f6-07f51c2595bf)
+_______________________________________________________________________________________________________________________________
+
+Thanks for taking a look at this game.
