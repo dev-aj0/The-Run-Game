@@ -27,6 +27,7 @@ player_gravity = 0
 jump_speed = -20
 fall_speed = 0.8
 level = "Easy"
+highscore = 0
 
 #Functions
 def pause():
@@ -107,7 +108,6 @@ def player_animation():
         if player_index >= len(player_walk):
             player_index = 0
         player_surf = player_walk[int(player_index)]
-
 
 def animate_the_run():
     global x_offset
@@ -245,6 +245,9 @@ score_multiplier = 0
 current_time = 0
 
 while True:
+    score_value = int(current_time / 1000) + score_multiplier * 2
+    if score_value > highscore:
+        highscore = score_value
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
@@ -315,6 +318,9 @@ while True:
         hard_select = font.render("You Have Selected Hard.", False, "Black")
         hard_select_rect = hard_select.get_rect(topleft=(40, 250))
 
+        highscore_surf = font.render("Highscore: " + f"{highscore}", False, "Black")
+        highscore_rect = highscore_surf.get_rect(center=(960,770))
+
         change_difficulty = font.render("Change Difficulty Here:", False, "Black")
         change_difficulty_rect = change_difficulty.get_rect(topleft=(40, 375))
 
@@ -331,6 +337,8 @@ while True:
         easy_rect = easy.get_rect(topleft=(40, 500))
         pygame.draw.rect(screen, "Black", easy_rect, 2)
         screen.blit(easy, easy_rect)
+
+        screen.blit(highscore_surf, highscore_rect)
 
         medium = font.render("Medium", False, "Black")
         medium_rect = medium.get_rect(topleft=(40, 650))
