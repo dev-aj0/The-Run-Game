@@ -104,7 +104,7 @@ def player_animation():
     if player_rect.bottom < 916:
         player_surf = player_jump
     else:
-        player_index += 0.1
+        player_index += 0.06
         if player_index >= len(player_walk):
             player_index = 0
         player_surf = player_walk[int(player_index)]
