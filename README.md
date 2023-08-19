@@ -9,13 +9,11 @@ It's up to you to time your jumps and get as far as you can and increase your sc
 - Simple runner game made with python/pygame - one of my first games.
 - There are 3 difficulties: Easy, Medium and Hard.
 - Jumping on enemies kills them and you get 2 points each time. There is a very brief surface that shows '+2', feel free to make that better.
-
-
-I know there isn't a highscore thing that shows you your score. I will get back to this project later and add many other things. 
+- Highscore that doesn't save after you close the window so...
 
 {SCREENSHOTS}
 
-![Screenshot 2023-08-03 130257](https://github.com/dev-aj0/The-Run-Game/assets/130843616/16de11de-9e2e-4451-b620-9c14e9a30336)
+![image](https://github.com/dev-aj0/The-Run-Game/assets/130843616/2ef19412-c06d-45da-97ee-3d4776558d46)
 _______________________________________________________________________________________________________________________________
 ![image](https://github.com/dev-aj0/The-Run-Game/assets/130843616/0ac21d6d-08f6-4ca9-a54f-9246413fde47)
 _______________________________________________________________________________________________________________________________
